@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pontos Turísticos da Europa</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #3498db;
+        }
+        p {
+            line-height: 1.5;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Pontos Turísticos da Europa</h1>
+
+    <div class="card">
+        <img src="paris.jpg" alt="Torre Eiffel em Paris">
+        <h2>Paris, França</h2>
+        <p>Paris, conhecida como a "Cidade Luz", é famosa por sua arquitetura deslumbrante, culinária requintada e atmosfera romântica. A Torre Eiffel é um dos marcos mais icônicos do mundo.</p>
+    </div>
+
+    <div class="card">
+        <img src="santorini.jpg" alt="Pôr do sol em Santorini">
+        <h2>Santorini, Grécia</h2>
+        <p>Santorini é uma ilha grega conhecida por suas belas praias, vilarejos brancos e pôr do sol deslumbrante. As vistas panorâmicas do Mar Egeu são simplesmente inesquecíveis.</p>
+    </div>
+
+    <div class="card">
+        <img src="rome.jpg" alt="Coliseu em Roma">
+        <h2>Roma, Itália</h2>
+        <p>Roma, a capital italiana, abriga uma rica história e arquitetura impressionante. O Coliseu, o Fórum Romano e o Pantheon são testemunhas do passado glorioso da cidade.</p>
+    </div>
+
+</body>
+</html>
